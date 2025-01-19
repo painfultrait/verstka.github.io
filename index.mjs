@@ -5,14 +5,4 @@ function toggleActive() {
   button.classList.toggle('active');
   menu.classList.toggle('active');
 }
-
-let debounceTimeout;
-
-function handleEvent(event) {
-  if (debounceTimeout) {
-    clearTimeout(debounceTimeout);
-  }
-}
-
-button.addEventListener('click', handleEvent);
-button.addEventListener('pointerdown', handleEvent);
+button.addEventListener('click', toggleActive);
