@@ -1,5 +1,7 @@
 import "./styles.css";
 
+  alert('Button clicked!');
+
 const button = document.getElementById("menu");
 const menu = document.getElementById("nav-menu");
 button.addEventListener('click', toggleActive);
