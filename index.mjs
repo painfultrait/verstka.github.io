@@ -5,6 +5,5 @@ function toggleActive() {
   menu.classList.toggle('active');
   
 }
-button.addEventListener('touchend', toggleActive);
 button.addEventListener('click', toggleActive);
 
