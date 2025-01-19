@@ -15,4 +15,4 @@ function handleEvent(event) {
 }
 
 button.addEventListener('click', handleEvent);
-button.addEventListener('touchend', handleEvent);
+button.addEventListener('pointerdown', handleEvent);
