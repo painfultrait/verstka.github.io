@@ -845,6 +845,37 @@ z-index: 2;
 
 }
 
+.details {
+  margin-top: 340px;
+  width: 234px;
+}
+
+
+.details-button{
+  width: 190px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+
+
+.card:hover .details{
+  height: 66px;
+  margin-top: 284px;
+  opacity: 1;
+
+
+}
+
+.card:hover .details-button{
+  opacity: 1;
+  margin-top: -54px;
+
+  background: var(--orange);
+
+
+}
+
 @media (max-width: 668px){
   
   .title{
@@ -889,6 +920,18 @@ z-index: 2;
 }
  
 @media (max-width: 390px) {
+
+
+  
+.details {
+  display: none;
+}
+
+
+.details-button{
+  display: none;
+}
+
 
   .container {
     max-width: 320px;
