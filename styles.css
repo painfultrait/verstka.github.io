@@ -920,7 +920,7 @@ z-index: 2;
   }
 }
  
-@media (max-width: 414px) {
+@media (max-width: 390px) {
     
   .details {
     margin-top: 230px;
